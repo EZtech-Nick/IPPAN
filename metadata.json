@@ -1,0 +1,5 @@
+{
+  "name": "IPPAN Transport V2",
+  "description": "A comprehensive transport management system including Fleet, HR, Finance, and Trip Monitoring modules.",
+  "requestFramePermissions": []
+}
