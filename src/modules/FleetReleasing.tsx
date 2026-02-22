@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { AppData, ReleaseRecord, ReleaseItem, ServiceItem } from '../types';
-import { fbService } from '../services/firebaseConfig';
+import { fbService } from '../services/firebase';
 import { Plus, Trash2, Printer, Settings } from '../components/Icons';
 import { fmtMoney, fmtDate, cleanForPDF } from '../utils';
 import { jsPDF } from 'jspdf';

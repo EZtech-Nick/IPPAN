@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { AppData, Holiday } from '../types';
-import { fbService } from '../services/firebaseConfig';
+import { fbService } from '../services/firebase';
 import { Modal } from '../components/Modal';
 import { Plus, Trash2 } from '../components/Icons';
 import { fmtDate } from '../utils';

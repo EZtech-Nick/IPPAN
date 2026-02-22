@@ -4,7 +4,7 @@ import { AppData, Employee, UserAccount } from '../types';
 import { Plus, Edit, Trash2, FileText } from '../components/Icons';
 import { fmtDate, fmtMoney, exportToExcel, getAllowedNames } from '../utils';
 import { Modal } from '../components/Modal';
-import { fbService } from '../services/firebaseConfig';
+import { fbService } from '../services/firebase';
 
 interface Props {
     data: AppData;

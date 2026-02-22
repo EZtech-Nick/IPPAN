@@ -4,7 +4,7 @@ import { AppData, Itinerary, UserAccount } from '../types';
 import { ItineraryForm } from './ItineraryForm';
 import { Modal } from '../components/Modal';
 import { Plus, Edit, Trash2, Printer } from '../components/Icons';
-import { fbService } from '../services/firebaseConfig';
+import { fbService } from '../services/firebase';
 import { fmtDate, exportToPDF, getAllowedNames } from '../utils';
 
 interface Props {

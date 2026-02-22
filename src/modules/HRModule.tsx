@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { AppData, Employee, PayrollRecord, UserAccount } from '../types';
-import { fbService } from '../services/firebaseConfig';
+import { fbService } from '../services/firebase';
 import { Modal } from '../components/Modal';
 import { fmtMoney, fmtDate } from '../utils';
 import { calculatePayrollWithAllowances } from './payrollHelper'; // Updated Import

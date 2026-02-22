@@ -1,7 +1,7 @@
 
 import React, { useState, useMemo } from 'react';
 import { AppData, BankAccount, BankTransaction } from '../types';
-import { fbService } from '../services/firebaseConfig';
+import { fbService } from '../services/firebase';
 import { Modal } from '../components/Modal';
 import { Plus, ArrowLeft, Printer } from '../components/Icons';
 import { fmtMoney, fmtDate, cleanForPDF } from '../utils';

@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { AppData, DrDriveJob, DrDrivePartItem, DrDriveServiceItem } from '../types';
-import { fbService } from '../services/firebaseConfig';
+import { fbService } from '../services/firebase';
 import { Plus, Trash2, Printer } from '../components/Icons';
 import { fmtMoney, fmtDate, cleanForPDF } from '../utils';
 import { jsPDF } from 'jspdf';

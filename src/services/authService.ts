@@ -1,6 +1,6 @@
 
 import { UserAccount } from '../types';
-import { fbService, db, APP_ID } from './firebaseConfig';
+import { fbService, db, APP_ID } from './firebase';
 import { collection, query, where, getDocs } from 'firebase/firestore';
 import { ADMIN_PERMISSIONS } from '../constants';
 

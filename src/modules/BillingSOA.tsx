@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { AppData, BillingRecord, Trip, TripExpense, UserAccount } from '../types';
 import { fmtDate, fmtMoney, getAllowedNames } from '../utils';
 import { Printer, Plus, Trash2 } from '../components/Icons';
-import { fbService } from '../services/firebaseConfig';
+import { fbService } from '../services/firebase';
 
 interface Props {
     data: AppData;

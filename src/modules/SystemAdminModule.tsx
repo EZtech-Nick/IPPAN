@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { AppData, UserAccount, Permissions, PermissionScope } from '../types';
-import { fbService } from '../services/firebaseConfig';
+import { fbService } from '../services/firebase';
 import { DEFAULT_PERMISSIONS } from '../constants';
 import { Trash2, Edit, Plus, Shield, Users } from '../components/Icons';
 import { fmtDate } from '../utils';

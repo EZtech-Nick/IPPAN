@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { AppData, UserAccount } from '../types';
-import { fbService } from '../services/firebaseConfig';
+import { fbService } from '../services/firebase';
 import { Printer } from '../components/Icons';
 import { exportToPDF, getAllowedNames } from '../utils';
 

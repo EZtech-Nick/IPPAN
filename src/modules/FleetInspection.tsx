@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { AppData, InspectionChecklist } from '../types';
-import { fbService } from '../services/firebaseConfig';
+import { fbService } from '../services/firebase';
 import { Modal } from '../components/Modal';
 import { Plus, Edit, Trash2, Printer } from '../components/Icons';
 import { fmtDate, exportToPDF } from '../utils';

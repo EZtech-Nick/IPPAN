@@ -4,7 +4,7 @@ import { AppData, DrDriveJob } from '../types';
 import { Modal } from '../components/Modal';
 import { Plus, Edit, Trash2, Printer } from '../components/Icons';
 import { fmtDate, fmtMoney } from '../utils';
-import { fbService } from '../services/firebaseConfig';
+import { fbService } from '../services/firebase';
 import { DrDriveForm } from './DrDriveForm';
 
 interface Props {

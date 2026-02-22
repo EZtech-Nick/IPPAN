@@ -2,7 +2,7 @@
 import React, { useState, useMemo } from 'react';
 import { AppData, RateMatrixItem } from '../types';
 import { Modal } from '../components/Modal';
-import { fbService, db, APP_ID } from '../services/firebaseConfig';
+import { fbService, db, APP_ID } from '../services/firebase';
 import { doc, setDoc } from 'firebase/firestore';
 import { fmtMoney } from '../utils';
 import * as XLSX from 'xlsx';

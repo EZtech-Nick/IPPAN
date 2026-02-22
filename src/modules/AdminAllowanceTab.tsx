@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { AppData, AdminAllowance, UserAccount } from '../types';
-import { fbService } from '../services/firebaseConfig';
+import { fbService } from '../services/firebase';
 import { fmtMoney, getAllowedNames } from '../utils';
 
 interface Props {

@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { AppData, Trip, UserAccount } from '../types';
-import { fbService } from '../services/firebaseConfig';
+import { fbService } from '../services/firebase';
 import { Modal } from '../components/Modal';
 import { Plus, Edit, Trash2, Settings, Printer, FileText } from '../components/Icons';
 import { fmtDate, fmtMoney, exportToExcel, exportToPDF, getAllowedNames } from '../utils';

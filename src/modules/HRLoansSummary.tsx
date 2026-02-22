@@ -4,7 +4,7 @@ import { AppData, Employee, LoanPayment, Loan, UserAccount } from '../types';
 import { fmtMoney, fmtDate, cleanForPDF, exportToExcel, getAllowedNames } from '../utils';
 import { Modal } from '../components/Modal';
 import { Eye, Printer, FileText } from '../components/Icons';
-import { fbService } from '../services/firebaseConfig';
+import { fbService } from '../services/firebase';
 import { jsPDF } from 'jspdf';
 import autoTable from 'jspdf-autotable';
 
